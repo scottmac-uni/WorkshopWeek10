@@ -7,4 +7,6 @@ class IncrementalFineStrategy : public IFineStrategy {
 
 public:
 	float generateFine();
+
+	IncrementalFineStrategy(float initialOverdueCost, float additionalOverdueCost);
 };
