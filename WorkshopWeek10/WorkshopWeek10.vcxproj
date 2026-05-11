@@ -123,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="WorkshopWeek10.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IFineStrategy.h" />
     <ClInclude Include="IncrementalFineStrategy.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="PopularityFineStrategy.h" />
     <ClInclude Include="SingleFineStrategy.h" />
     <ClInclude Include="Staff.h" />
