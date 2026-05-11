@@ -6,4 +6,5 @@ class PopularityFineStrategy : public IFineStrategy {
 
 public:
 	float generateFine();
+	PopularityFineStrategy(float popularityMultiplier);
 };

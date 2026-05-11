@@ -6,4 +6,5 @@ class SingleFineStrategy : public IFineStrategy {
 
 public:
 	float generateFine();
+	SingleFineStrategy(float flatFee);
 };
